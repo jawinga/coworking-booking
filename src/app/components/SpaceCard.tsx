@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { User } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export interface SpaceCardProps {
   id: string;
@@ -42,7 +43,13 @@ const SpaceCard = ({
         })}
 
         {features.length > 2 && <span>+{features.length - 2}</span>}
-        <p>${price}/day</p>
+        <div className="space-card__container__lower">
+          <p>${price}/day</p>
+          <button>
+            Book now
+            <ArrowRight className="arrow-card"></ArrowRight>
+          </button>
+        </div>
       </div>
     </div>
   );

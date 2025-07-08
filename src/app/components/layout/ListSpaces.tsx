@@ -25,20 +25,22 @@ const ListSpaces = ({ spaces }: ListSpacesProps) => {
       </header>
 
       {spaces.length >= 1 ? (
-        spaces.map((space) => (
-          <SpaceCard
-            key={space.id}
-            id={space.id}
-            image={space.image}
-            title={space.title}
-            capacity={space.capacity}
-            price={space.price}
-            features={space.features}
-            location={space.location}
-          />
-        ))
+        <div className="grid-space-cards">
+          {spaces.map((space) => (
+            <SpaceCard
+              key={space.id}
+              id={space.id}
+              image={space.image}
+              title={space.title}
+              capacity={space.capacity}
+              price={space.price}
+              features={space.features}
+              location={space.location}
+            />
+          ))}
+        </div>
       ) : (
-        <h2>There aren &apos t coworking spaces left! 😥</h2>
+        <h2>There aren&apos;t coworking spaces left! 😥</h2>
       )}
     </div>
   );
