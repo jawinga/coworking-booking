@@ -4,9 +4,9 @@ import "../app/styles/main.scss";
 import Header from "./components/layout/Header";
 
 const roboto = Roboto({
-  weight: ["400", "700"], // weights you need
-  subsets: ["latin"], // subset for your language
-  display: "swap", // optional, recommended
+  weight: ["200", "400", "500", "600", "700", "800"],
+  subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${roboto.className}`}>
         <Header></Header>
-        {children}
+        <main className="container">{children}</main>
       </body>
     </html>
   );
