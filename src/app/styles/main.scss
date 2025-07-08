@@ -1,16 +1,4 @@
-@import "base/variables";
-@import "base/mixins";
-@import "base/reset";
-@import "base/typography";
-@import "base/globals";
-
-@import "layout/header";
-@import "layout/footer";
-@import "layout/grid";
-
-@import "components/buttons";
-@import "components/forms";
-@import "components/cards";
-
-@import "pages/home";
-@import "pages/about";
+@use "base" as *;
+@use "layout" as *;
+@use "components" as *;
+@use "pages" as *;

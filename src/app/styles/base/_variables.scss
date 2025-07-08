@@ -1,0 +1,69 @@
+// Brand Colors - Professional & Business-oriented
+$color-primary: #2563eb; // Professional blue
+$color-primary-dark: #1d4ed8; // Darker blue for hover states
+$color-primary-light: #dbeafe; // Light blue for backgrounds
+
+// Neutral Colors
+$color-surface: #ffffff; // Clean white surface
+$color-background: #f8fafc; // Subtle gray background
+$color-border: #e2e8f0; // Light gray borders
+$color-divider: #cbd5e1; // Divider lines
+
+// Text Colors
+$color-text: #1e293b; // Dark gray for primary text
+$color-text-secondary: #64748b; // Medium gray for secondary text
+$color-text-muted: #94a3b8; // Light gray for muted text
+
+// Status Colors
+$color-success: #059669; // Green for success states
+$color-warning: #d97706; // Orange for warnings
+$color-error: #dc2626; // Red for errors
+$color-info: #0284c7; // Blue for information
+
+// Typography
+$font-family-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif;
+$font-family-mono: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas,
+  "Courier New", monospace;
+
+// Font Weights
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Font Sizes
+$font-size-xs: 0.75rem; // 12px
+$font-size-sm: 0.875rem; // 14px
+$font-size-base: 1rem; // 16px
+$font-size-lg: 1.125rem; // 18px
+$font-size-xl: 1.25rem; // 20px
+$font-size-2xl: 1.5rem; // 24px
+$font-size-3xl: 1.875rem; // 30px
+
+// Spacing
+$spacing-xs: 0.25rem; // 4px
+$spacing-sm: 0.5rem; // 8px
+$spacing-md: 1rem; // 16px
+$spacing-lg: 1.5rem; // 24px
+$spacing-xl: 2rem; // 32px
+$spacing-2xl: 3rem; // 48px
+
+// Border Radius
+$border-radius-sm: 4px;
+$border-radius-md: 6px;
+$border-radius-lg: 8px;
+$border-radius-xl: 12px;
+
+// Shadows
+$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+  0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+// Breakpoints
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
