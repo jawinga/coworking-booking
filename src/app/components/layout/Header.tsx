@@ -25,13 +25,13 @@ const Header = () => {
           </div>
 
           <div className="navbar__actions">
-            <Link href="/myBookings" className="navbar__link">
+            <Link href="/pages/myBookings" className="navbar__link">
               <Calendar size={18} />
               <span>My Bookings</span>
             </Link>
 
             <Link
-              href="/profile"
+              href="/pages/profile"
               className="navbar__link navbar__link--profile"
             >
               <User size={18} />

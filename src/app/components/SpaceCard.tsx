@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { User } from "lucide-react";
 
-interface SpaceCardProps {
+export interface SpaceCardProps {
   id: string;
   image: string;
   location: string;
@@ -16,13 +16,19 @@ const SpaceCard = ({
   image,
   title,
   location,
-  features,
+  features = [],
   capacity,
   price,
 }: SpaceCardProps) => {
   return (
     <div className="space-card">
-      <Image src={image} className="space-card__image" alt={`${title}`}></Image>
+      <Image
+        src={image}
+        className="space-card__image"
+        height={200}
+        width={300}
+        alt={`${title}`}
+      ></Image>
       <div className="space-card__container">
         <p>
           {capacity}
@@ -32,7 +38,7 @@ const SpaceCard = ({
         <h4>{location}</h4>
 
         {features.slice(0, 2).map((f, i) => {
-          return <p key={i + 1}>{f}</p>;
+          return <p key={i}>{f}</p>;
         })}
 
         {features.length > 2 && <span>+{features.length - 2}</span>}

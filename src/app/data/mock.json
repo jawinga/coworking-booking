@@ -1,0 +1,57 @@
+[
+  {
+    "id": "space-1",
+    "title": "Quiet Corner Desk",
+    "location": "Main Hall, Floor 1",
+    "image": "https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg",
+    "features": ["WiFi", "Ergonomic Chair", "Lamp"],
+    "capacity": 1,
+    "price": 15
+  },
+  {
+    "id": "space-2",
+    "title": "Team Meeting Room",
+    "location": "East Wing, Floor 2",
+    "image": "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg",
+    "features": [
+      "Whiteboard",
+      "Projector",
+      "Conference Phone",
+      "Seating for 8"
+    ],
+    "capacity": 8,
+    "price": 50
+  },
+  {
+    "id": "space-3",
+    "title": "Private Office Suite",
+    "location": "West Wing, Floor 3",
+    "image": "https://images.pexels.com/photos/2343468/pexels-photo-2343468.jpeg",
+    "features": [
+      "Lockable Door",
+      "Air Conditioning",
+      "Natural Light",
+      "File Cabinets"
+    ],
+    "capacity": 3,
+    "price": 40
+  },
+  {
+    "id": "space-4",
+    "title": "Hot Desk Area",
+    "location": "Main Hall, Floor 1",
+    "image": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg",
+    "features": ["Shared Desk", "WiFi", "Access to Lounge"],
+    "capacity": 1,
+    "price": 10
+  },
+  {
+    "id": "space-5",
+    "title": "Creative Lounge",
+    "location": "Rooftop",
+    "image": "https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg",
+    "features": ["Sofa Seating", "Coffee Machine", "Panoramic View", "Library"],
+    "capacity": 6,
+    "price": 30
+  }
+]
